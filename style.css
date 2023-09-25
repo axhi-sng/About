@@ -45,6 +45,12 @@ img {
   border: 4px solid rgb(163, 40, 163);
 }
 
+@media (max-width: 420px){
+  img {
+      width:200px;
+  }
+}
+
 p {
   font-size: 1.25rem;
 }
