@@ -38,12 +38,18 @@ a {
   padding: 2rem;
 }
 
+h1{
+  text-decoration: underline;
+}
+
 img {
   object-fit: cover;
   width: 20rem;
   border-radius: 50%;
+}
+
+img:hover{
   box-shadow: 5px 5px 5px 10px;
-  
 }
 
 @media (max-width: 420px){
